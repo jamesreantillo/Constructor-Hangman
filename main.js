@@ -5,6 +5,9 @@ var userGuess = 10;
 
   prompt.start(); 
   startGame(userGuess);
+
+
+
     function startGame(guesses){
       console.log("You have " + guesses + " guesses left");
       if(hangmanGame.currentWord.wordMatch() == true){
@@ -19,6 +22,9 @@ var userGuess = 10;
 
     
     console.log(hangmanGame.currentWord.show());
+    // console.log(hangmanGame.currentWord.get());
+    // console.log(hangmanGame.currentWord.correct());
+    // console.log(hangmanGame.currentWord.wordMatch());
 
 
   prompt.get(["letter"], function(err, result){
