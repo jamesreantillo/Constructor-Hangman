@@ -4,7 +4,6 @@ var Word = function(word){
   
   this.word = word;
   this.guessedWord = [];
-  this.youWin = false;
   this.guesses = [];
 
   
